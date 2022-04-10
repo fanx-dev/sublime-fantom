@@ -2,7 +2,7 @@
 ---
 # http://www.sublimetext.com/docs/3/syntax.html
 name: Fantom
-file_extensions: [fan]
+file_extensions: [fan,fanx,fwt,fwtx,fog]
 scope: source.fan
 
 variables:
@@ -171,10 +171,10 @@ contexts:
       match: \b(true|false|null)\b
 
     - scope: storage.modifier.fan
-      match: \b(abstract|const|enum|facet|final|internal|native|once|override|private|protected|public|readonly|static|virtual|volatile)\b
+      match: \b(abstract|const|enum|facet|final|internal|native|once|override|private|protected|public|readonly|static|virtual|volatile|var|let|fun|rtconst)\b
 
     - scope: keyword.control.block.fan
-      match: \b(return|break|continue)\b
+      match: \b(return|break|continue|lret)\b
 
     - scope: keyword.control.exceptions.fan
       match: \b(try|catch|finally|throw|assert)\b

@@ -27,6 +27,8 @@ If you have [Package Control](http://wbond.net/sublime_packages/package_control/
 
 Clone this repository into your `Sublime Text 3/Packages/` directory
 
+The directory found in Sublime Text 3->Preferences->Browse Packages...
+
 ```shell
 Sublime Text 3/Packages/$  git clone https://github.com/mgiannini/sublime-fantom.git
 ```
